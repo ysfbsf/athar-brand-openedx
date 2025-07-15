@@ -1,2 +1,28 @@
 // Use this file to define style overrides for @edx/paragon
 // This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
+
+// Override Resume Course button color in the learning MFE
+// The button currently uses inline styles with hardcoded color #434C59 (rgb(67, 76, 89))
+// This override will force the use of brand colors
+.btn[href*="courseware"]:not(.btn-link):not(.btn-outline-primary) {
+  background-color: $btn-brand-bg !important;
+  border-color: $btn-brand-border-color !important;
+  
+  &:hover {
+    background-color: $btn-brand-hover-bg !important;
+    color: $btn-brand-hover-color !important;
+    border-color: $btn-brand-border-color !important;
+  }
+}
+
+// Alternative selector if the above doesn't work
+.start-or-resume-course-card .btn-primary {
+  background-color: $btn-brand-bg !important;
+  border-color: $btn-brand-border-color !important;
+  
+  &:hover {
+    background-color: $btn-brand-hover-bg !important;
+    color: $btn-brand-hover-color !important;
+    border-color: $btn-brand-border-color !important;
+  }
+}
