@@ -1,4 +1,11 @@
 // this file creates the core.css import here all the common styles for your theme. 
 
+// Import fonts first
+@import "./fonts";
+
+// Import variables and overrides
+@import "./variables";
+@import "./overrides";
+
 // @use "./build/core/variables";
 // @use "./build/core/custom-media-breakpoints";

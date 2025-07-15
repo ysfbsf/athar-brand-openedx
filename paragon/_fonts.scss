@@ -1,1 +1,81 @@
-// Add any font imports or definitions here
+// Degular Font
+@font-face {
+    font-family: 'Degular';
+    src: url('fonts/degular/Degular-Thin.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Degular';
+    src: url('fonts/degular/DegularDisplay-Light.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Degular';
+    src: url('fonts/degular/DegularText-Semibold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Degular';
+    src: url('fonts/degular/DegularDisplay-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+// Hind Font
+@font-face {
+    font-family: 'Hind';
+    src: url('fonts/hind/Hind-Light.woff2') format('woff2'),
+        url('fonts/hind/Hind-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hind';
+    src: url('fonts/hind/Hind-Regular.woff2') format('woff2'),
+        url('fonts/hind/Hind-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hind';
+    src: url('fonts/hind/Hind-Medium.woff2') format('woff2'),
+        url('fonts/hind/Hind-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hind';
+    src: url('fonts/hind/Hind-SemiBold.woff2') format('woff2'),
+        url('fonts/hind/Hind-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hind';
+    src: url('fonts/hind/Hind-Bold.woff2') format('woff2'),
+        url('fonts/hind/Hind-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+// Noto Kufi Arabic Font - Using Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@300;400;500;600;700&display=swap');
