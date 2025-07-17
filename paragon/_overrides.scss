@@ -45,3 +45,10 @@
     color: $btn-brand-hover-color !important;
   }
 }
+
+// Hide the top stripe on auth pages
+.extra-large-screen-top-stripe,
+.medium-screen-top-stripe,
+.small-screen-top-stripe {
+  display: none !important;
+}
