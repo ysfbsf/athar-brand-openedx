@@ -26,3 +26,22 @@
     border-color: $btn-brand-border-color !important;
   }
 }
+
+// Override btn-brand colors for Sign in button
+.btn-brand {
+  background-color: $btn-brand-bg !important;
+  border-color: $btn-brand-border-color !important;
+  color: $btn-brand-color !important;
+  
+  &:hover, &:focus {
+    background-color: $btn-brand-hover-bg !important;
+    border-color: $btn-brand-border-color !important;
+    color: $btn-brand-hover-color !important;
+  }
+  
+  &:active, &:active:focus {
+    background-color: $btn-brand-hover-bg !important;
+    border-color: $btn-brand-border-color !important;
+    color: $btn-brand-hover-color !important;
+  }
+}
